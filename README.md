@@ -1,32 +1,26 @@
 # stacksearch
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Little service, that performs a search by given parameters through an external web service
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar stacksearch-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
+    lein run
 
 ## Examples
 
-...
+Пример запроса: http://localhost:8080/search?tag=clojure&tag=scala
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Пример ответа:
+{
+  "clojure" : {
+    "total" : 7576,
+    "answered" : 134
+  }
+  "scala" : {
+    "total" : 5783,
+    "answered" : 165
+  }
+}
 
 ## License
 
