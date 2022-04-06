@@ -9,7 +9,7 @@ Little service, that performs a search by given parameters through API StackOver
 ## Examples
 
 Пример запроса: 
->http://localhost:8080/search?tag=clojure&tag=scala
+>http://localhost:3000/search?tag=clojure&tag=scala
 
 Пример ответа:
 ```
