@@ -12,7 +12,8 @@ Little service, that performs a search by given parameters through API StackOver
 >http://localhost:8080/search?tag=clojure&tag=scala
 
 Пример ответа:
-```{
+```
+{
   "clojure" : {
     "total" : 7576,
     "answered" : 134
