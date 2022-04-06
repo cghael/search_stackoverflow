@@ -1,6 +1,5 @@
 (ns stacksearch.core
   (:require
-    [clojure.pprint :as pp]
     [ring.adapter.jetty :refer [run-jetty]]
     [ring.util.response :refer [redirect response content-type]]
     [ring.middleware.params :refer :all]
@@ -8,8 +7,7 @@
     [compojure.core :refer :all]
     [compojure.route :as route]
     [hiccup.core :refer [html]]
-    [stacksearch.api :as api])
-  (:gen-class))
+    [stacksearch.api :as api]))
 
 
 (def page
