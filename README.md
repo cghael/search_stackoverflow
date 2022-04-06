@@ -8,10 +8,12 @@ Little service, that performs a search by given parameters through API StackOver
 
 ## Examples
 
-Пример запроса: 
->http://localhost:3000/search?tag=clojure&tag=scala
+request: 
+```
+http://localhost:3000/search?tag=clojure&tag=scala
+```
 
-Пример ответа:
+response:
 ```
 {
   "clojure" : {
